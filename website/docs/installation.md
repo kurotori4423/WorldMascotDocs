@@ -21,8 +21,16 @@ WorldMascotをVRChatワールドに導入する手順を説明します。
 ### 2. Unityプロジェクトへのインポート
 
 1. Unityプロジェクトを開きます
-2. ダウンロードしたunitypackageファイルをインポートします
+2. ダウンロードしたWorldMascot.unitypackageファイルをインポートします
 3. インポートが完了するまで待ちます
+
+:::note
+
+`OVRLipSyncSequenceConverter.unitypackage`はリップシンクアニメーションを自動生成するのに使える同梱ツールです。
+リップシンクアニメーションを作らない場合は導入は不要です。
+詳しくは[リップシンクアニメーションを作成する方法](./craeteLipSyncAnimation.md)をご参照ください。
+
+:::
 
 ### 3. 自動セットアップツールによるセットアップ
 
